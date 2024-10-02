@@ -1,0 +1,15 @@
+# Ignore node_modules if you use Node.js for any automation
+node_modules/
+
+# Ignore build output if you have any
+dist/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore any Chrome extension-specific files that may be generated
+*.pem
