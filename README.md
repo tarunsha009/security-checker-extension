@@ -10,6 +10,10 @@ Security Checker is a Chrome extension that helps you determine the security sta
 - Verify SSL certificates using SSL Labs API.
 - Check for the presence of critical security headers (CSP and HSTS).
 
+## How It Works
+- The extension uses the [SSL Labs API](https://www.ssllabs.com/ssltest/) to analyze the SSL certificate of websites. The API provides detailed information about the SSL configuration of the site, including its grade (A, B, etc.).
+- For each visited site, the extension also checks the presence of security headers like **Content-Security-Policy (CSP)** and **Strict-Transport-Security (HSTS)** to ensure additional layers of security.
+
 ## Installation
 
 To install this extension locally:
